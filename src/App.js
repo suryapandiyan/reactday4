@@ -1,29 +1,14 @@
 //  import logo from './logo.svg';
-//  import './App.css';
+// import './App.css';
 
 //working with array List
-function Note({note}){
-  return(
-    <li>{note.content}</li>)
-  
-}
-
-function App({notes}) {
-  // const{notes}= props;
-  // console.log({notes.map(note=><li>{note.content}</li>)})
-  return (
-    <div><h1>React Day 3</h1>
-    <ul>
-      {notes.map(note=>
-      <Note key={note.id} note={note}/>
-      )}
-    </ul>
-
-
-
-
-    </div>
-  )
-}
-
-export default App;
+// 
+// import { Component } from "react";
+// class App extends Component
+// {
+//   render()
+//    {
+//       return<div>Hello world!</div>
+//    }
+// }
+// export default App;
